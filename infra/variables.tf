@@ -3,3 +3,9 @@ variable "aws_region" {
   type        = string
   default     = "eu-central-1"
 }
+
+variable "kafka_cluster_id" {
+  description = "Id of the kafka cluster"
+  type = string
+  default = "lkc-v0ywqn"
+}
