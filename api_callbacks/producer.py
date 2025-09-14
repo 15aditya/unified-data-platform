@@ -5,7 +5,7 @@ from confluent_kafka import SerializingProducer
 from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.avro import AvroSerializer
 
-from aws_secrets import get_secret
+from aws.aws_secrets import get_secret
 
 secrets = get_secret("workshop/unified_data_platform/confluent_kafka_keys")
 
